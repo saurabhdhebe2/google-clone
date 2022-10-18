@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 const Body = () => {
   const router = useRouter();
   const searchInputRef = useRef(null);
+
   const search = (event) => {
     event.preventDefault();
     const term = searchInputRef.current.value;
