@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Body from "../components/Body";
 import Header from "../components/Header";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Body */}
+      <Body />
 
       {/* Footer */}
     </div>
