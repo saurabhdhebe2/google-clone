@@ -5,7 +5,7 @@ import Response from "../Response";
 import { useRouter } from "next/router";
 import ImageResults from "../components/ImageResults";
 
-const search = ({ results }) => {
+const Search = ({ results }) => {
   const router = useRouter();
   // console.log(results);
 
@@ -26,7 +26,7 @@ const search = ({ results }) => {
   );
 };
 
-export default search;
+export default Search;
 
 export async function getServerSideProps(context) {
   const startIndex = context.query.start || "1";
