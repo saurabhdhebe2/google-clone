@@ -7,7 +7,7 @@ import ImageResults from "../components/ImageResults";
 
 const search = ({ results }) => {
   const router = useRouter();
-  console.log(results);
+  // console.log(results);
 
   return (
     <div>
